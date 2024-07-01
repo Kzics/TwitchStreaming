@@ -1,0 +1,25 @@
+clientId: ""
+clientSecret: ""
+oauthToken: ""
+
+start-stream: "{channel} started to stream! Follow them at {url}!"
+stop-stream: "{channel} stopped streaming! Follow them at {url}!"
+
+tier-items:
+  display-name: "&6Tier &e{tier}"
+  lore:
+    - "&7Status: &b{status}"
+    - "&7Tier &e{tier} Rewards:"
+    - "&a➤ &b{reward} &7x&e{amount}"
+    - "&7Time Required: &e{time}"
+
+reward-tiers:
+  - time: 2
+    reward: DIAMOND
+    amount: 10
+  - time: 4
+    reward: DIAMOND_BLOCK
+    amount: 2
+  - time: 6
+    reward: DIAMOND_SWORD
+    amount: 54

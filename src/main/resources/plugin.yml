@@ -1,0 +1,14 @@
+main: com.kzics.twitchstreaming.Main
+name: TwitchStreaming
+version: 1.0.0
+api-version: 1.13
+commands:
+  streamtime:
+    description: Check the time of the stream
+    permission: twitchstreaming.streamtime
+  streamregister:
+    description: Register a stream
+    permission: twitchstreaming.streamregister
+  rewardtiers:
+    description: Check the reward tier
+    permission: twitchstreaming.rewardstier
